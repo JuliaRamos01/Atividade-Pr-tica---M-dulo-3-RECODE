@@ -1,2 +1,2 @@
-# Atividade-Pr-tica---M-dulo-3-RECODE
-Arquivos referentes à atividade 3.
+<h1> Atividade Prática - Módulo 3 <h1>
+
