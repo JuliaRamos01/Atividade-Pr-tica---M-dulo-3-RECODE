@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center {
+
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+
+    background-color: white;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    /* cor da linha do menu */
+}
+
+.logo {
+
+    color: #2A2C52;
+}
+
+.logo h2 {
+
+    font-weight: normal;
+    font-size: 25px;
+
+}
+
+.menu {
+    width: 80%;
+    text-align: right;
+}
+
+.menu a {
+
+    color: #2A2C52;
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.menu a:hover {
+
+    color: #C74701;
+}
+
+/* Parte de Section Main */
+
+section.main {
+
+    background-image: url('../imagens/backgroundbrancoazul.jpg');
+    padding: 100px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.main__cta {
+
+    width: 100%;
+    margin: 80px 0;
+    text-align: center;
+
+}
+
+.main__cta h2 {
+
+    color: #2A2C52;
+    font-size: 40px;
+
+}
+
+.main__cta p {
+
+    color: gray;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.main__cta button {
+
+    background-color: #C74701;
+    display: inline-block;
+    padding: 8px 30px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+
+}
+
+.diferenciais {
+
+    display: flex;
+
+}
+
+.diferencial-single {
+
+    /* parte das caixas */
+
+    background-color: white;
+    width: 25%;
+    margin-right: 3%;
+    padding: 50px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 29px 0 rgb(18 66 101 / 8%);
+
+}
+
+.diferencial-single i {
+
+    color: #2A2C52;
+    font-size: 23px;
+
+
+}
+
+.diferencial-single h2 {
+
+    color: #2A2C52;
+    margin: 10px 0;
+    font-size: 16px;
+
+
+}
+
+.diferencial-single p {
+
+    color: gray;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+/* parte sobre */
+
+section.sobre {
+
+    padding: 80px;
+
+}
+
+.chamada-sobre {
+    width: 100%;
+    text-align: center;
+
+}
+
+.chamada-sobre h2 {
+
+    color: #2A2C52;
+    text-transform: uppercase;
+
+}
+
+.chamada-sobre p {
+
+    font-size: 14px;
+    color: gray;
+    margin: 10px 0;
+
+}
+
+.conteudo-sobre {
+    display: flex;
+}
+
+.conteudo-sobre p {
+    margin: 0 20px;
+    color: #444;
+
+}
+
+/* parte antes do footer */
+
+.vantagens {
+
+    background-image: url('../imagens/praia2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 696px;
+    width: 1349px;
+    padding: 120px 24px 24px 24px;
+    min-height: 332px;
+    
+}
+
+.vantagensdescri {
+
+    display: flex;
+
+}
+
+
+.vantagensdescri-single {
+
+    /* parte das caixas */
+
+    background-color: white;
+    width: 25%;
+    margin-right: 3%;
+    padding: 50px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 29px 0 rgb(18 66 101 / 8%);
+    position: relative;
+
+}
+
+.vantagensdescri-single i {
+
+    color: #2A2C52;
+    font-size: 23px;
+
+
+}
+
+.vantagensdescri-single h2 {
+
+    color: #2A2C52;
+    margin: 10px 0;
+    font-size: 16px;
+
+
+}
+
+.vantagensdescri-single p {
+
+    color: gray;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+/* parte footer */
+footer {
+
+    background-color: #2A2C52;
+    padding-top: 5em;
+    padding-bottom: 40px;
+    border-top: 5px solid #51827A;
+}
+
+footer h2, footer p, footer a, footer span {
+
+    color: white;
+
+}
+
+footer h2 {
+
+    font-weight: 400;
+
+}
+
+footer a {
+
+    text-decoration: none;
+
+}
+
+footer ul {
+
+    padding: 0;
+}
+
+footer li {
+
+    list-style: none;
+
+}
+
+.footer-box {
+
+    width: 31%;
+    padding: 1%;
+    float: left;
+
+}
+
+footer .wrapper:after {
+
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.company-footer {
+
+    width: 80%;
+
+}
+
+.company-footer h2 {
+
+    margin-top: 20px;
+    font-size: 30px;
+
+}
+
+.company-footer {
+
+    text-align: center;
+}
+
+.company-footer h2 p {
+
+    margin-bottom: 20px;
+
+
+}
+
+.agencia-footer {
+
+    width: 80%;
+    text-align: left;
+}
+
+.footer-lista {
+
+    margin-bottom: 15px;
+}
+
+.footer-lista a {
+
+    transition: 0.5s;
+
+}
+
+.footer-lista a:hover {
+
+    color: #C74701;
+
+}
+
+.footer-lista span {
+
+    transition: 0.5s;
+
+}
+
+.footer-lista span:hover {
+
+    color: #C74701;
+
+}
+
+.footer-lista:after {
+
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.footer-lista {
+
+    width: 80%;
+
+}
+
+
+.footer-lista.footer-agencia-lista li {
+
+    display: block;
+    float: none;
+
+}
+
+.fab {
+    /* tamanho icones*/
+
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+
+.fas.fa-plane-departure {
+    /* tamanho do avião rodapé */
+
+    font-size: 50px;
+    color: white;
+}
+
+.footer-list li span {
+
+    float: left;
+    height: 30px;
+    line-height: 30px;
+
+}
